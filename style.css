@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4fff4;
+}
+
+header{
+    background: linear-gradient(90deg, green, darkgreen);
+    color:white;
+    padding:0.5px;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;  
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    margin:5px;
+    border-radius:8px;
+}
+
+nav a:hover{
+    background:gold;
+    color:black;
+}
+
+.main{
+    position:relative;
+    text-align:center;
+}
+
+.main img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+}
+
+.maintext{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    border-radius:10px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    background:green;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:gold;
+    color:black;
+    transform:scale(1.05);
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    padding:40px;
+}
+
+.card{
+    width:300px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    border-radius:12px 12px 0 0;
+}
+
+.about-section{
+    display:flex;
+    align-items:center;
+    padding:50px;
+    gap:30px;
+}
+
+.about-section img{
+    width:500px;
+    border-radius:10px;
+}
+
+table{
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+th, td{
+    padding:15px;
+    text-align:center;
+}
+
+tr:hover{
+    background:#dfffdc;
+}
+
+.contact-box{
+    width:500px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+input, textarea{
+    width:100%;
+    padding:10x;
+}
+
+.teamsection {
+    text-align: center;
+    padding: 40px;
+}
+
+.teammember {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 220px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
